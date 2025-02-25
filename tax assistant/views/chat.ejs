@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Assistant</title>
+    <link rel="stylesheet" href="/css/chat.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="quick-actions">
+        <h2>Quick Actions</h2>
+        <div class="action-buttons">
+            <button class="action-btn" id="calculateTaxBtn">
+                <i class="fas fa-calculator"></i> Calculate Tax
+            </button>
+            <button class="action-btn">
+                <i class="fas fa-chart-line"></i> Get Investment Guidance
+            </button>
+            <button class="action-btn">
+                <i class="fas fa-file-alt"></i> View Amendments
+            </button>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <div class="chat-history">
+            <div class="chat-message bot">
+                <p>Hi! I'm your tax assistant. How can I help you today?</p>
+            </div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message here...">
+            <button class="send-btn" id="sendBtn">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="/js/chat.js"></script>
+</body>
+</html>

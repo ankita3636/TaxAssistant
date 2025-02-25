@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* White */
+    color: #333;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+    font-size: 1.2em; /* Smaller logo */
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-left: 15px; /* Reduced margin */
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9em; /* Smaller font size */
+}
+
+.nav-links a.contact {
+    background-color: #007bff; /* Blue */
+    color: white;
+    padding: 6px 12px; /* Smaller padding */
+    border-radius: 5px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ffffff; /* White */
+    color: #333;
+    padding: 40px 20px; /* Reduced padding */
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 1.8em; /* Smaller heading */
+    margin-bottom: 15px; /* Reduced margin */
+}
+
+.hero .start-chat {
+    background-color: #28a745; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Smaller padding */
+    font-size: 1em; /* Smaller font size */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero .start-chat i {
+    margin-left: 8px; /* Reduced margin */
+}
+
+/* Features Section */
+.features {
+    padding: 30px 20px; /* Reduced padding */
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 1.5em; /* Smaller heading */
+    margin-bottom: 20px; /* Reduced margin */
+    color: #333;
+}
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 features in one line */
+    gap: 15px; /* Reduced gap */
+    max-width: 1000px; /* Limit width for better symmetry */
+    margin: 0 auto; /* Center the grid */
+}
+
+.feature {
+    background-color: white;
+    padding: 15px; /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.feature i {
+    font-size: 1.5em; /* Smaller icons */
+    color: #007bff; /* Blue */
+    margin-bottom: 8px; /* Reduced margin */
+}
+
+.feature h3 {
+    font-size: 1.2em; /* Smaller heading */
+    margin-bottom: 8px; /* Reduced margin */
+    color: #333;
+}
+
+.feature p {
+    font-size: 0.9em; /* Smaller text */
+    color: #666;
+}
+
+/* How It Works Section */
+.how-it-works {
+    padding: 30px 20px; /* Reduced padding */
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 1.5em; /* Smaller heading */
+    margin-bottom: 20px; /* Reduced margin */
+    color: #333;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px; /* Reduced gap */
+    max-width: 1000px; /* Limit width for better symmetry */
+    margin: 0 auto; /* Center the steps */
+}
+
+.step {
+    background-color: white;
+    padding: 15px; /* Reduced padding */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 1 200px; /* Smaller flex items */
+}
+
+.step i {
+    font-size: 1.5em; /* Smaller icons */
+    color: #007bff; /* Blue */
+    margin-bottom: 8px; /* Reduced margin */
+}
+
+.step h3 {
+    font-size: 1.2em; /* Smaller heading */
+    margin-bottom: 8px; /* Reduced margin */
+    color: #333;
+}
+
+.step p {
+    font-size: 0.9em; /* Smaller text */
+    color: #666;
+}
